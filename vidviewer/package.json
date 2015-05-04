@@ -1,0 +1,26 @@
+{
+  "main": "index.html",
+  "name": "vidviewer",
+  "description": "Media Viewer",
+  "version": "0.0.1",
+  "keywords": [ "node-webkit" ],
+  "window": {
+    "title": "vidviewer",
+    "icon": "link.png",
+    "toolbar": true,
+    "frame": true,
+    "width": 800,
+    "height": 500,
+    "position": "center",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 800,
+    "max_height": 600
+  },
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "deck":"latest"
+  }
+}
